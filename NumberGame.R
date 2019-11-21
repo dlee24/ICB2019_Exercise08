@@ -3,7 +3,7 @@ TotalGuesses = 0
 
 while(TotalGuesses < 10){
   TotalGuesses = TotalGuesses + 1
-  YourGuess = as.numeric(readline(prompt = "What is your guess? "))
+  YourGuess = as.numeric(readline(prompt = "I'm thinking of a number 1-100. What is your guess? "))
   if(YourGuess==CorrectNumber){
     print("You are correct. Great job!")
     break
